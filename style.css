@@ -1,0 +1,25 @@
+#main-container{
+    height: 45em;
+    width: 59.5em;
+    background-color: lightblue;
+
+
+    
+}
+
+
+.container{
+    top: 5em;
+    height: 15em;
+    width: 59.5em;
+    background-color: pink;
+    float: left;
+    clear: right;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+}
+html{
+    background-color: lightblue;
+    text-align: center;
+    
+}
