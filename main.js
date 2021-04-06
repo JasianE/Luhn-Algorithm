@@ -18,11 +18,10 @@ Seventh step:
     Does it end with zero?
 
 */
-let credit_number
 
+"use strict"
 
-
-
+let credit_number;
 
 function getNumber(){
     //Define the variable that will store your credit card number hahahahahahhaahahahah
@@ -89,7 +88,7 @@ function luhnAlgorithm(){
             return a + b
         }))
     })
-    A = evenNumbers.reduce(function(a, b){
+    let A = evenNumbers.reduce(function(a, b){
         return a+ b
     })
     
